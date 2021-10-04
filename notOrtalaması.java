@@ -7,6 +7,7 @@ public class NotOrtalamasi {
         Scanner inp = new Scanner(System.in);
         // Değişkenler
         int mat,tur,fiz,kim,biy;
+        // Ders Ağırlıkları
         int mata = 5,tura=3,fiza=5,kima=3,biya=3;
 
         // Notları alma
