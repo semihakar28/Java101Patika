@@ -1,0 +1,21 @@
+package Döngüler;
+
+import java.util.Scanner;
+
+public class Pratik1 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int num;
+
+        System.out.print("Sayı Giriniz:");
+        num = input.nextInt();
+
+        System.out.println("Girilen sayıya kadar 3 ve 4 e bölünebilen sayılar;");
+        for (int i =1;i<num;i++){
+            if (i % 3 == 0 && i % 4 == 0){
+                System.out.print(i+" ");
+            }
+        }
+
+    }
+}
